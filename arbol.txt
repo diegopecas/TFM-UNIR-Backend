@@ -1,0 +1,47 @@
+.
+├── README.md
+├── api
+│   ├── controller
+│   │   ├── permisos
+│   │   ├── preguntas
+│   │   ├── pruebas
+│   │   ├── respuestas
+│   │   ├── roles
+│   │   │   ├── create.php
+│   │   │   ├── delete.php
+│   │   │   ├── read.php
+│   │   │   ├── single_read.php
+│   │   │   └── update.php
+│   │   └── usuarios
+│   ├── model
+│   │   ├── ejecucion.php
+│   │   ├── opcion-pregunta.php
+│   │   ├── permiso-rol.php
+│   │   ├── permiso.php
+│   │   ├── pregunta.php
+│   │   ├── prueba.php
+│   │   ├── respuesta.php
+│   │   ├── rol.php
+│   │   └── usuario.php
+│   └── service
+│       ├── ejecuciones.service.php
+│       ├── opciones-pregunta.service.php
+│       ├── permisos-rol.service.php
+│       ├── permisos.service.php
+│       ├── preguntas.service.php
+│       ├── pruebas.service.php
+│       ├── respuestas.service.php
+│       ├── roles.service.php
+│       └── usuarios.service.php
+├── arbol.txt
+├── config
+│   └── database.php
+└── ejemplo
+    ├── create.php
+    ├── delete.php
+    ├── employees.service.php
+    ├── read.php
+    ├── single_read.php
+    └── update.php
+
+12 directories, 32 files
